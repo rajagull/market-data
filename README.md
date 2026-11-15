@@ -4,8 +4,10 @@ Tiny public data feeds maintained by GitHub Actions for the Investify app.
 
 ## oil.json — live crude oil prices (USD/bbl)
 
-Updated every ~5 minutes by `.github/workflows/oil.yml` running
-`scripts/fetch_oil.py` (sources: TradingView scanner → CNBC → Yahoo).
+Updated every ~5 minutes by `scripts/fetch_oil.py` (sources:
+TradingView scanner → CNBC → Yahoo), run by a launchd agent
+(`com.rajagull.oilfeed`) on the owner's Mac mini. A GitHub Action
+(`.github/workflows/oil.yml`) is also present as a backup runner.
 
 Raw URL used by the app:
 
