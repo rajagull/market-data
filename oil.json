@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-17T06:28:53Z",
+  "updatedAt": "2026-11-17T06:33:59Z",
   "source": "tradingview",
   "unit": "USD/bbl",
   "wti": {
-    "price": 85.07,
+    "price": 85.15,
     "previousClose": 85.72,
     "dayHigh": 85.59,
     "dayLow": 84.73
   },
   "brent": {
-    "price": 91.88,
+    "price": 92.01,
     "previousClose": 92.44,
     "dayHigh": 92.29,
     "dayLow": 91.25
